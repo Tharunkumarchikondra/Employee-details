@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+</head>
+
+<body>
+    <script>
+        let student = {
+            id: 1,
+            name: { first_name: "Tharun", last_name: "Kumar" },
+            salary: 300000,
+            address: {
+                house_number: "1-54",
+                street: "Miyapur",
+                city: "Hyderabad",
+                pin: 50049,
+                state: "Telangana",
+                country: "India",
+                location: { latitude: 17.42, longitude: 78.40 },
+            },
+            nominee: {
+                nominee_name: { first_name: "Parthu", last_name: "XYZ" },
+                relationship: "friend",
+                age: 22,
+                date_of_birth: "15/08/2002",
+                occupation: "Software Engineer",
+            },
+            accounts: [
+                {
+                    account_number: 12234567990,
+                    amount: 2000000,
+                    bank_name: "SBI",
+                    ifsc: 900039099,
+                },
+                {
+                    account_number: 92234567990,
+                    amount: 10000,
+                    bank_name: "ICICI",
+                    ifsc: 7000039099,
+                },
+                {
+                    account_number: 82234567990,
+                    amount: 4000000,
+                    bank_name: "UNION",
+                    ifsc: 98876226,
+                }
+            ],
+            experience: [
+                {
+                    company_name: "Infor",
+                    date_of_relieving: "12/04/2022",
+                    designation: "Associate Full Stack Developer",
+                    ctc: 600000,
+                },
+                {
+                    company_name: "accenture",
+                    date_of_relieving: "12/04/2023",
+                    designation: "Associate Full Stack Developer",
+                    ctc: 800000,
+                }
+            ],
+            education: [
+                {
+                    board: "ssc",
+                    degree: "10th",
+                    marks: 8.5,
+                    year: 2018,
+
+                },
+                {
+                    board: "Telangana Board Of Intermediate Education",
+                    degree: "Inter",
+                    marks: 910,
+                    year: 2020,
+
+                },
+                {
+                    board: "Telangana Council of Higher Education",
+                    degree: "B-tech",
+                    marks: 910,
+                    year: 2020,
+
+                }
+            ]
+        };
+        console.log(student);
+    </script>
+</body>
+
+</html>
